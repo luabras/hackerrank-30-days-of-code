@@ -10,9 +10,11 @@ int main() {
 
     string input_string; 
     
-    getline(cin, input_string); 
+    getline (cin, input_string);
     
-    cout << "Hello, World." << endl;
+    cout<<"Hello, World.\n";
+    cout<<input_string;
 
     return 0;
+    
 }
